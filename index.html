@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/programming.png" type="image/x-icon" />
+    <!--=============== BOXICONS ===============-->
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Bia Bio's Web</title>
+  </head>
+  <body>
+    <!-- HEADER PORTFOLIO -->
+    <header class="header" id="header">
+      <div class="spacer"></div>
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Bia Bio's Web</a>
+      
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" class="nav__link active-link">
+                <i class="bx bx-home-alt nav__icon"></i>
+                <span class="nav__name">Home</span>
+              </a>
+            </li>
+      
+            <li class="nav__item">
+              <a href="#about" class="nav__link">
+                <i class="bx bx-user nav__icon"></i>
+                <span class="nav__name">About</span>
+              </a>
+            </li>
+      
+            <li class="nav__item">
+              <a href="#portfolio" class="nav__link">
+                <i class="bx bx-briefcase-alt nav__icon"></i>
+                <span class="nav__name">Project</span>
+              </a>
+            </li>
+      
+            <li class="nav__item">
+              <a href="#media" class="nav__link">
+                <i class="bx bx-book-alt nav__icon"></i>
+                <span class="nav__name">Media</span>
+              </a>
+            </li>
+      
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">
+                <i class="bx bx-envelope nav__icon"></i>
+                <span class="nav__name">Contact</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      
+        <div class="theme-toggle" id="theme-button">
+          <i class="bx bx-moon toggle-icon moon"></i>
+          <i class="bx bx-sun toggle-icon sun"></i>
+          <span class="toggle-ball"></span>
+        </div>
+        
+      </nav>
+      
+    </header>
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          
+          <div class="home__data">
+            <span class="home__greeting">Hai, Saya</span>
+      
+            <h1 class="home__name">Abhi Arbian</h1>
+      
+            <h3 class="home__education">
+              <span id="typing-text"></span>
+            </h3>
+      
+            <div class="home__buttons">
+              <a href="#" class="button" id="btnMusic">Musik</a> <audio id="musicPlayer" src="assets/img/musik.mp3"></audio>
+              <a href="#about" class="button button--ghost">About Me</a>
+            </div>
+          </div>
+      
+        </div>
+      </section>
+    <!--=============== ABOUT ===============-->
+          <section class="about section" id="about">
+            <span class="section__subtitle">My Intro</span>
+            <h2 class="section__title">About Me</h2>
+
+            <div class="about__container container">
+              <div class="about__content">
+                <img src="assets/img/abhi.png" alt="Profile" class="about__img" />
+
+                <div class="about__data">
+                  <p class="about__description">
+                    Saya Abhi Arbian, Seorang web develover yang sedang berada pada tahap awal perjalanan di dunia pengembangan web. Meskipun masih pemula, saya memiliki rasa ingin tahu yang tinggi terhadap berbagai teknologi, konsep, dan tools terbaru.
+                  </p>
+
+                  <a href="#media" class="button">My Galery Media</a>
+                </div>
+              </div>
+            </div>
+          </section>
+
+
+      <!--=============== PORTFOLIO ===============-->
+      <section class="work section" id="portfolio">
+        <span class="section__subtitle">My Portfolio</span>
+        <h3 class="section__title">Project</h3>
+      
+        <div class="work__container container grid">
+          
+          <div class="work__card">
+            <img src="assets/img/project1.jpg" alt="" class="work__img" />
+            <h3 class="work__title">Aplikasi Hitung Usia Mahasiswa</h3>
+            <p class="work__desc">Melatih mengelola input tanggal dan menampilkan hasil usia secara otomatis.</p>
+            <p></p>
+          </div>
+      
+          <div class="work__card">
+            <img src="assets/img/project2.jpg" alt="" class="work__img" />
+            <h3 class="work__title">Aplikasi Formulir Penerimaan Karyawan Baru</h3>
+            <p class="work__desc">Sebuah proyek yang bertujuan untuk mempermudah proses pengumpulan data  calon karyawan secara terstruktur dan sistematis.</p>
+          </div>
+      
+          <div class="work__card">
+            <img src="assets/img/project3.jpg" alt="" class="work__img" />
+            <h3 class="work__title">Aplikasi Menghitung Total Belanja</h3>
+            <p class="work__desc">Mempermudah pengguna menghitung total biaya belanja melalui antarmuka yang clean, responsif, dan innteraktif.</p>
+          </div>
+      
+        </div>
+      </section>
+      
+
+        <!--=============== MEDIA ===============-->
+        <section class="media section" id="media">
+          <span class="section__subtitle">My Gallery</span>
+          <h2 class="section__title">MEDIA</h2>
+        
+          <div class="media__container container">
+            <div class="media__grid">
+        
+              <div class="media__card">
+                <img src="assets/img/gambar1.jpg" alt="" />
+              </div>
+        
+              <div class="media__card">
+                <img src="assets/img/gambar2.jpg" alt="" />
+              </div>
+        
+              <div class="media__card">
+                <img src="assets/img/gambar3.jpg" alt="" />
+              </div>
+        
+              <div class="media__card">
+                <img src="assets/img/gambar4.jpg" alt="" />
+              </div>
+        
+            </div>
+          </div>
+        </section>
+    <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <span class="section__subtitle">Get in touch</span>
+        <h3 class="section__title">Contact Me</h3>
+
+        <!-- ===== Contact Cards ===== -->
+        <div class="contact__cards-container">
+          <div class="contact__cards">
+            <div class="contact__card">
+              <i class='bx bx-envelope contact__icon'></i>
+              <h3 class="contact__card-title">Email</h3>
+              <p class="contact__card-text">abhiarbian1@mail.com</p>
+            </div>
+          
+            <div class="contact__card">
+              <i class='bx bxl-whatsapp contact__icon'></i>
+              <h3 class="contact__card-title">WhatsApp</h3>
+              <p class="contact__card-text">+62 895-3736-7868-4</p>
+            </div>
+          
+            <div class="contact__card">
+              <i class='bx bx-map contact__icon'></i>
+              <h3 class="contact__card-title">Location</h3>
+              <p class="contact__card-text">Bogor, Indonesia</p>
+            </div>
+          </div>
+        </div>
+        <!-- ===== End Contact Cards ===== -->
+
+        <!-- ===== Contact Form ===== -->
+        <div class="contact__form-container">
+          <h3 class="contact__title">Write me your project</h3>
+          <form action="" class="contact__form" id="contact-form">
+            <div class="contact__form-div">
+              <label for="" class="contact__form-tag">Name</label>
+              <input type="text" name="user_name" placeholder="Insert Your Name!" class="contact__form-input" id="contact-name" />
+            </div>
+            <div class="contact__form-div">
+              <label for="" class="contact__form-tag">Email</label>
+              <input type="text" name="user_email" placeholder="Insert Your Email!" class="contact__form-input" id="contact-email" />
+            </div>
+            <div class="contact__form-div contact__form-area">
+              <label for="" class="contact__form-tag">Project</label>
+              <textarea cols="30" rows="10" name="user_project" placeholder="Insert Your Project!" class="contact__form-input" id="contact-project"></textarea>
+            </div>
+            <p class="contact__message" id="contact-message"></p>
+            <button class="button">Send Message!</button>
+          </form>
+        </div>
+        <!-- ===== End Form ===== -->
+      </section>
+
+
+
+    </main>
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Bia Bio's Web</h1>
+        <p>Dikelola oleh seorang mahasiswa yang terus belajar dan berkembang di dunia web development.</p>
+        <ul class="footer__list">
+          <li><a href="#about" class="footer__link">About</a></li>
+          <li><a href="#portfolio" class="footer__link">Project</a></li>
+          <li><a href="#media" class="footer__link">Media</a></li>
+          <li><a href="#contact" class="footer__link">Contact</a></li>
+          <!-- <li><a href="#testimonial" class="footer__link">Testimonials</a></li> -->
+        </ul>
+
+        <ul class="footer__social">
+          <a href="https://wa.me/62895373678684" target="_blank" class="footer__social-link">
+            <i class="bx bxl-whatsapp"></i>
+          </a>
+          <a href="https://instagram.com/abiaarbian" target="_blank" class="footer__social-link">
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a href="https://tiktok.com/@abiaarbian" target="_blank" class="footer__social-link">
+            <i class="bx bxl-tiktok"></i>
+          </a>
+        </ul>
+        
+        <span class="footer__copy"> &#169; 2026. All rights reserved. </span>
+      </div>
+    </footer>
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+      
+        const text =
+          "Freelance, KOL Specialist, Web Developer, UI/UX & Front End Developer";
+      
+        const typingEl = document.getElementById("typing-text");
+        if (!typingEl) return;
+      
+        /* ===== MOBILE: TAMPIL STATIS ===== */
+        if (window.innerWidth <= 768) {
+          typingEl.textContent = text;
+          return;
+        }
+      
+        /* ===== DESKTOP: TYPING EFFECT ===== */
+        let index = 0;
+        const speed = 90;
+      
+        typingEl.classList.add("typing-cursor");
+      
+        function type() {
+          if (index < text.length) {
+            typingEl.textContent += text.charAt(index);
+            index++;
+            setTimeout(type, speed);
+          } else {
+            typingEl.classList.remove("typing-cursor");
+          }
+        }
+      
+        type();
+      });
+      </script>
+      <script>
+        const aboutText = `Saya Abhi Arbian, Seorang web develover yang sedang berada pada tahap awal perjalanan di dunia pengembangan web. Meskipun masih pemula, saya memiliki rasa ingin tahu yang tinggi terhadap berbagai teknologi, konsep, dan tools terbaru.`;
+      
+        const aboutDesc = document.querySelector('.about__description');
+        let index = 0;
+        let isTyped = false;
+      
+        // Kosongkan teks awal
+        aboutDesc.textContent = "";
+      
+        function typeAboutText() {
+          if (index < aboutText.length) {
+            aboutDesc.textContent += aboutText.charAt(index);
+            index++;
+            setTimeout(typeAboutText, 35);
+          }
+        }
+      
+        // Observer untuk detect scroll
+        const aboutObserver = new IntersectionObserver(
+          (entries) => {
+            entries.forEach(entry => {
+              if (entry.isIntersecting && !isTyped) {
+                isTyped = true;
+                typeAboutText();
+              }
+            });
+          },
+          {
+            threshold: 0.5 // 50% section terlihat
+          }
+        );
+      
+        // Observe section about
+        aboutObserver.observe(document.querySelector('#about'));
+      </script>
+      
+      <script>
+        const btnMusic = document.getElementById('btnMusic');
+        const music = document.getElementById('musicPlayer');
+      
+        btnMusic.addEventListener('click', function (e) {
+          e.preventDefault(); // supaya tidak lompat ke #contact
+      
+          if (music.paused) {
+            music.play();
+            btnMusic.textContent = 'Pause Musik';
+          } else {
+            music.pause();
+            btnMusic.textContent = 'Musik';
+          }
+        });
+      </script>
+      <script>
+        // Pilih semua card di section media
+        const mediaCards = document.querySelectorAll('#media .media__card');
+      
+        const observer = new IntersectionObserver((entries, observer) => {
+          entries.forEach(entry => {
+            if(entry.isIntersecting){
+              entry.target.classList.add('show'); // tambah class 'show' saat terlihat
+              observer.unobserve(entry.target);   // optional: stop observe
+            }
+          });
+        }, { threshold: 0.2 }); // 20% terlihat
+      
+        mediaCards.forEach(card => observer.observe(card));
+      </script>
+      
+      
+      
+      
+      
+  </body>
+</html>
